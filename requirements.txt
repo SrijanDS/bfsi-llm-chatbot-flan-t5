@@ -1,0 +1,27 @@
+# Zero-cost dependencies — all free, no GPU required
+# Install with: pip install -r requirements.txt
+
+# Core ML & NLP
+transformers==4.40.0          # Hugging Face — Flan-T5 model
+datasets==2.19.0              # Hugging Face — load Bitext dataset (free)
+torch==2.2.2                  # PyTorch CPU version (no CUDA needed)
+scikit-learn==1.4.2           # Intent classifier + F1/accuracy metrics
+sentence-transformers==2.7.0  # Sentence embeddings for intent similarity
+
+# Evaluation metrics
+sacrebleu==2.4.0              # BLEU score
+rouge-score==0.1.2            # ROUGE-L score
+nltk==3.8.1                   # Text processing
+
+# Data & utilities
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4             # Plotting results
+seaborn==0.13.2               # Heatmaps
+tqdm==4.66.2                  # Progress bars
+
+# Prototype UI
+streamlit==1.33.0             # Free web UI — run locally
+
+# Logging & reproducibility
+jsonlines==4.0.0
