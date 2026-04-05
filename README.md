@@ -21,8 +21,8 @@ metrics and red-team adversarial evaluation.
 26,872 intent-labelled retail banking queries (CC BY 4.0)  
 https://huggingface.co/datasets/bitext/Bitext-retail-banking-llm-chatbot-training-dataset
 
-**Secondary — LMSYS Chatbot Arena Conversations**  
-~2,000 curated single-turn exchanges for qualitative evaluation  
+**Secondary — LMSYS Chatbot Arena Conversations** *(referenced for 
+qualitative context; primary evaluation conducted on Bitext only)*  
 https://huggingface.co/datasets/lmsys/chatbot_arena_conversations
 
 ## Model
